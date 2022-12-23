@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="/mega sena/index.js"></script>
+  <title>Mega da virada</title>
+</head>
+<body>
+
+  <h2>Jogo da mega megaSena</h2>
+  <div id="escolhas">
+    <p>Quantidade de jogos: <input type="text" id="qjog" value="4"></br></p> 
+    <p>Quantidade de números por jogo: 
+      <select type="text" id="qnum">
+    <option value= "6"> 6</option>
+    <option value= "7"> 7</option>
+    <option value= "8"> 8</option>
+    <option value= "9"> 9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+      </select>
+    </p>
+  </div>
+  <input type="button" id="button" value="Gerar valores / Raffle" onclick=megaSena()>
+  <input type="button" id="clear" value="Limpar valores / Clear" onclick=resetar()>
+  </br></br>
+  <div id="ext"></div>  
+</body>
+</html>
